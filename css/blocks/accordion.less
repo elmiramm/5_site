@@ -1,0 +1,36 @@
+// main: ../style.less
+
+.accordion {
+	max-width: 730px;
+
+}
+
+.accordion__item {
+	margin-bottom: 40px;
+}
+
+.accordion__header {
+	display: flex;
+	align-items: center;
+
+	margin-bottom: 30px;
+}
+
+.accordion__title {
+	margin-left: 13px;
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	line-height: 1.21;
+	font-weight: 500;
+	color: @accent;
+	text-transform: uppercase;
+}
+
+.accordion__content {
+	display: none;
+}
+
+.accordion__item.active .accordion__content {
+	display: block;
+}
