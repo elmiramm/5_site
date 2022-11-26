@@ -1,0 +1,48 @@
+// main: ../style.less
+
+.reviews {
+	margin-bottom: 150px;
+}
+
+.reviews__inner {
+	display: flex;
+	gap: 30px;
+	justify-content: space-between;
+
+}
+
+.reviews__content {
+	padding: 79px 30px 38px;
+	margin-bottom: 30px;
+
+	background-color: @light-gray;
+
+	position: relative;
+}
+
+.reviews__content::before {
+	content: "“";
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 96px;
+	line-height: 1.2;
+	font-weight: 500;
+	color: @accent;
+	text-transform: uppercase;
+
+	position: absolute;
+	top: 11px;
+	z-index: 1;
+}
+
+.reviews__author {
+	font-family: 'Oswald', sans-serif;
+	font-size: 21px;
+	line-height: 1.2;
+	font-weight: 500;
+	color: @dark;
+}
+
+.reviews__prof {
+	color: @accent;
+}
