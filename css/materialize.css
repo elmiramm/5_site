@@ -3,7 +3,7 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
-.materialize-red {
+/* .materialize-red {
   background-color: #e51c23 !important;
 }
 
@@ -81,9 +81,9 @@
 
 .materialize-red-text.text-darken-4 {
   color: #8b1014 !important;
-}
+} */
 
-.red {
+/* .red {
   background-color: #F44336 !important;
 }
 
@@ -193,9 +193,9 @@
 
 .red-text.text-accent-4 {
   color: #D50000 !important;
-}
+} */
 
-.pink {
+/* .pink {
   background-color: #e91e63 !important;
 }
 
@@ -305,12 +305,12 @@
 
 .pink-text.text-accent-4 {
   color: #c51162 !important;
-}
+} */
 
 .purple {
   background-color: #9c27b0 !important;
 }
-
+/* 
 .purple-text {
   color: #9c27b0 !important;
 }
@@ -2137,7 +2137,7 @@
 
 .transparent-text {
   color: transparent !important;
-}
+} */
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -2161,9 +2161,6 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
-body {
-  margin: 0;
-}
 
 /**
  * Add the correct display in IE 9-.
@@ -2177,14 +2174,6 @@ section {
   display: block;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 
 /* Grouping content
    ========================================================================== */
@@ -2212,7 +2201,7 @@ figure {
  */
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+   box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */

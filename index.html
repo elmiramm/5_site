@@ -10,22 +10,64 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/materialize.min.css">
 
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+	<link rel="stylesheet" href="css/style.css">
 
 	<title>РЕАЛИЗУЕМ КРУПНЕЙШИЕ ПРОЕКТЫ В РОССИИ</title>
 </head>
 
 <body>
 
+	<!-- from Materialize -->
+
+	<ul id="slide-out" class="sidenav">
+		<li>
+			<a href="#!" class="waves-effect">
+				<i class="material-icons">home</i>Главная
+			</a>
+		</li>
+
+		<li>
+			<a href="#!" class="waves-effect">
+				<i class="material-icons">people</i>О нас
+			</a>
+		</li>
+
+		<li>
+			<a href="#!" class="waves-effect">
+				<i class="material-icons">grade</i>Услуги
+			</a>
+		</li>
+
+		<li>
+			<a href="#!" class="waves-effect">
+				<i class="material-icons">phone</i>Контакты
+			</a>
+		</li>
+		<li>
+			<div class="divider"></div>
+		</li>
+
+		<li><a href="#" class="sidenav-close"><i class="material-icons">close</i>Закрыть</a></li>
+
+	</ul>
+
+	<!-- End Materialize -->
+
 	<header class="header">
 		<div class="container">
 			<div class="header__top">
 				<img class="header__logo" src="img/logo.svg" alt="Logo">
-				<button class="burger" type="button">
-					<span class="burger__item">Menu</span>
+				<button class="burger " type="button">
+					<a href="#" class="sidenav-trigger" data-target="slide-out">
+						<span class=" burger__item">Menu</span>
+					</a>
 				</button>
+
 			</div>
 			<h1 class="header__title">РЕАЛИЗУЕМ КРУПНЕЙШИЕ ПРОЕКТЫ В РОССИИ</h1>
 			<p class="header__text">стадионы, газопроводы, мосты, дамбы</p>
@@ -95,6 +137,20 @@
 
 		</div>
 	</section>
+
+	<!-- Modal Trigger -->
+	<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+	<!-- Modal Structure -->
+	<div id="modal1" class="modal">
+		<div class="modal-content">
+			<h4>Modal Header</h4>
+			<p>A bunch of text</p>
+		</div>
+		<div class="modal-footer">
+			<a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+		</div>
+	</div>
 
 
 	<section class="request">
@@ -401,7 +457,8 @@
 	</footer>
 
 
-	<script src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
