@@ -138,17 +138,16 @@
 		</div>
 	</section>
 
-	<!-- Modal Trigger -->
-	<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
 
 	<!-- Modal Structure -->
 	<div id="modal1" class="modal">
 		<div class="modal-content">
-			<h4>Modal Header</h4>
+			<h4>Header</h4>
 			<p>A bunch of text</p>
 		</div>
 		<div class="modal-footer">
-			<a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+			<a href="#!" class="modal-close waves-effect waves-green btn-flat">Отправить</a>
+			<a href="#!" class="modal-close waves-effect waves-green btn-flat">Закрыть</a>
 		</div>
 	</div>
 
@@ -162,7 +161,8 @@
 					<p class="request__text">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</p>
 				</div>
 
-				<button class="request__btn">
+				<!-- Modal Trigger -->
+				<button class="request__btn modal-trigger" data-target="modal1">
 					<span class="request__btn-text">ВАШ ЗАПРОС</span>
 				</button>
 
