@@ -4,4 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	var modal = document.querySelectorAll('.modal');
 	var instances__modal = M.Modal.init(modal);
+
+	var elems = document.querySelectorAll('.materialboxed');
+	var instances = M.Materialbox.init(elems);
 });
