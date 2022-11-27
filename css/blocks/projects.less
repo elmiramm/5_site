@@ -35,3 +35,27 @@
 	z-index: 1;
 
 }
+
+@media (max-width: 1200px) {
+	.projects {
+		gap: 20px;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	.projects__img {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto 66px;
+	}
+
+	.projects__title::before {
+		width: 100%;
+	}
+
+	.projects__item {
+		max-width: 750px;
+	}
+
+}
